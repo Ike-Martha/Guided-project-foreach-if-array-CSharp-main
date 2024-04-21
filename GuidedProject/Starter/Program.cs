@@ -3,29 +3,15 @@
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
-int sophia1 = 90;
-int sophia2 = 86;
-int sophia3 = 87;
-int sophia4 = 98;
-int sophia5 = 100;
+int[] sophiaScore = new int[] { 90, 86, 87, 90, 100 };//new keyword is use for creating 
+                                                      //instance of an array
+int[] andrewScore = new int[] { 92, 89, 81, 96, 90 };
 
-int andrew1 = 92;
-int andrew2 = 89;
-int andrew3 = 81;
-int andrew4 = 96;
-int andrew5 = 90;
+int[] emmaScore = new int[] { 90, 85, 87, 98, 68 };
 
-int emma1 = 90;
-int emma2 = 85;
-int emma3 = 87;
-int emma4 = 98;
-int emma5 = 68;
+int[] loganScore = new int[] { 90, 95 87, 88, 96 };
 
-int logan1 = 90;
-int logan2 = 95;
-int logan3 = 87;
-int logan4 = 88;
-int logan5 = 96;
+
 
 int sophiaSum = 0;
 int andrewSum = 0;
@@ -54,4 +40,4 @@ Console.WriteLine("Emma:\t\t" + emmaScore + "\tB");
 Console.WriteLine("Logan:\t\t" + loganScore + "\tA-");
 
 Console.WriteLine("Press the Enter key to continue");
-Console.ReadLine();
+//Console.ReadLine();
